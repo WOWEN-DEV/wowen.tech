@@ -53,12 +53,7 @@ Have feedback or need support? Feel free to reach out!
 ## Connect with Us
 
 - **Website:** [wowen.tech](https://wowen.tech)
-- **Email:** info@wowen.tech
-- **Twitter:** [@WOWENtech](https://twitter.com/WOWENtech)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- **First Contact Email:** emma@wowen.tech
 
 ---
 
