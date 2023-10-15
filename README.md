@@ -1,10 +1,10 @@
 # WOWEN - Transforming Femtech
 
-Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize femtech. 🚀
+Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🚀
 
 ## About Us
 
-WOWEN is not just a company; we are a creative powerhouse with expertise in full-stack development, femtech, UX, design, and marketing. We have a unique ability to transform high-level strategy into practical implementation at the intersection of business development, communication, and technology.
+WOWEN is not just a company; we are a creative powerhouse with expertise in full-stack development, FemTech, UX, design, and marketing. We have a unique ability to transform high-level strategy into practical implementation at the intersection of business development, communication, and technology.
 
 ## Key Features
 
@@ -30,7 +30,7 @@ WOWEN is not just a company; we are a creative powerhouse with expertise in full
 
 ## Our Strengths
 
-- **Expertise in Femtech and Full-Stack Development:** We're pioneers in the femtech field and full-stack development.
+- **Expertise in Femtech and Full-Stack Development:** We're pioneers in the FemTech field and full-stack development.
 
 - **Creative and Versatile Team:** Our team thrives on creativity and versatility.
 
@@ -44,7 +44,7 @@ WOWEN is not just a company; we are a creative powerhouse with expertise in full
 
 ## Contributing
 
-We welcome contributions from the FemTech Dev community. If you'd like to contribute to our projects, please follow our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Feedback and Support
 
@@ -57,4 +57,4 @@ Have feedback or need support? Feel free to reach out!
 
 ---
 
-Thank you for your interest in WOWEN. Together, we're making femtech innovative, creative, and powering. 💪
+Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering. 💪
