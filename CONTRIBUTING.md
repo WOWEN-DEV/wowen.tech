@@ -38,10 +38,6 @@ If you're passionate about FemTech and want to contribute to WOWEN, please follo
 
 10. **Merge and Celebrate:** Once your PR is approved, it will be merged into the main branch. Congratulations on your contribution!
 
-## Code of Conduct
-
-To maintain a welcoming and inclusive environment, please review and adhere to our Code of Conduct.
-
 ## Questions and Support
 
 If you have questions or need support during the contribution process, feel free to open an issue in the repository.
