@@ -1,0 +1,134 @@
+.rm-works__icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.rm-vacancy__tags span {
+	display: block;
+}
+.rm-vacancy__tags span:last-child,
+.rm-vacancy__tags span:nth-last-child(2) {
+	display: flex;
+}
+.rm-clients-slider .splide__slide {
+	display: flex !important;
+}
+form.go::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 11;
+}
+.wpcf7-form-control-wrap * {
+	width: 100%;
+}
+input[type=submit] {
+	font-size: 100%;
+}
+.wpcf7-form-control-wrap {
+	display: flex;
+}
+.rm-form-join-us textarea {
+	display: block;
+}
+.textarea-997 .wpcf7-not-valid-tip {
+	border-radius: 24px;
+}
+.wpcf7-not-valid {
+	border: 1px solid #cf190e;
+}
+.wpcf7-not-valid-tip {
+	position: absolute;
+	display: none;
+	align-items: center;
+	font-size: 12px;
+	background-color: #0a0a0a;
+	width: calc(100% - 32px);
+	height: calc(100% - 26px);
+	border-radius: 100%;
+	top: 1px;
+	left: 16px
+}
+.wpcf7-response-output,
+.wpcf7-spinner {
+	display: none !important;
+}
+.wpcf7-form-control-wrap.your-country {
+	display: none;
+}
+.rm-form-join-us .rm-form-join-us__phone-email .wpcf7-form-control-wra,
+.rm-form-join-us .rm-form-join-us__phone-email .wpcf7-form-control-wrap {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.rm-form-join-us__phone-email input {
+	margin-left: 0;
+	margin-right: 0;
+}
+.rm-form-join-us .rm-custom-file .wpcf7-form-control-wrap {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 0;
+	opacity: 0;
+	margin-bottom: 0 !important;
+}
+.rm-form-join-us .wpcf7-submit.rm-button {
+	margin-bottom: 0;
+}
+.rm-checkbox-dark input[type=checkbox],
+.rm-checkbox-dark input[type=radio],
+.rm-custom-checkbox input[type=checkbox],
+.rm-custom-checkbox input[type=radio] {
+	margin-right: 12px;
+	min-height: auto;
+	height: 14px;
+	width: 14px;
+	position: relative;
+	-webkit-appearance: none;
+	background: 0 0;
+	border: none;
+}
+.rm-contact-form .rm-custom-checkbox input {
+	margin-bottom: 0;
+}
+.rm-custom-checkbox label {
+	display: flex;
+	color: #fffbf5;
+	font-size: 10px;
+	line-height: 1.3;
+}
+.rm-contact-form input[type=submit] {
+	margin-top: 12px;
+}
+.rm-footer__form input.rm-button--rounded {
+	width: 56px;
+}
+.cli-style-v2 {
+	display: block !important;
+}
+.grecaptcha-badge {
+	display: none !important;
+}
+.rm-footer__bottom-block {
+	font-size: 12px;
+}
+@media screen and (min-width: 90em) {
+	.rm-footer__bottom-block {
+		justify-content: start;
+	}
+	.rm-footer__copyright {
+		width: 100%;
+	}
+	.rm-footer__bottom-block a {
+		margin-right: 57px;
+	}
+	.rm-footer__bottom-block a:last-child {
+		margin-right: 0;
+	}
+}
