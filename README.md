@@ -4,7 +4,7 @@ Welcome to the WOWEN website repository! We're thrilled to have you here as we e
 
 ## About WOWEN
 
-WOWEN is not just a company; it's a movement. We are passionate about using technology, design, and creativity to empower women in their health and wellness journeys. Our mission is to create innovative solutions that make a real difference in women's lives.
+WOWEN is not just a company; it's a movement. We are passionate about using technology, design, and creativity to power women in their health and wellness journeys. Our mission is to create innovative solutions that make a real difference in women's lives.
 
 ## Key Features
 
