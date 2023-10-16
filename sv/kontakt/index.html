@@ -400,34 +400,24 @@ fill: #91FF6A;
 </div>
 </div>
 <div class="cell medium-offset-2 medium-8 large-offset-1 large-5">
-<div class="contact-wowen-container">
-<form id="contact-form" action="https://wowen.tech/sv/kontakt/submit_form.php" method="POST" class="rm-contact-form rm-pcontact">
-<input type="text" id="name" name="name" placeholder="Namn*" required>
-<input type="text" id="company" name="company" placeholder="Företag">
-<input type="email" id="email" name="email" placeholder="Email*" required>
-<textarea id="message" name="message" placeholder="Meddelande*" required></textarea>
-<label class="consent">
-<input type="checkbox" id="consent" name="consent" required>
-<span class="consent-text">
-Genom att bocka i rutan ger jag mitt samtycke till att behandla mina personuppgifter som har lämnats i formuläret ovan i enlighet med
-<a href="https://www.wowen.tech/sv/integritetspolicy/" target="_blank">WOWEN Tech integritetspolicy</a>.
-</span>
-</label>
-<button type="submit">Skicka</button>
-</form>
-<script>
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-e.preventDefault();
-const formData = new FormData(this);
-fetch("<?php echo $_SERVER['PHP_SELF']; ?>", {
-method: "POST",
-body: formData,
-}).then(() => {
-window.location.href = "https://wowen.tech/sv/kontakt/tack/";
-});
-});
-</script>
-</div>
+
+	<div class="contact-wowen-container">
+		<form id="contact-form" action="https://wowen.tech/sv/kontakt/tack/" method="POST" class="rm-contact-form rm-pcontact" name="contact" netlify>
+			<input type="text" id="name" name="name" placeholder="Namn*" required>
+			<input type="text" id="company" name="company" placeholder="Företag">
+			<input type="email" id="email" name="email" placeholder="Email*" required>
+			<textarea id="message" name="message" placeholder="Meddelande*" required></textarea>
+			<label class="consent">
+				<input type="checkbox" id="consent" name="consent" required>
+				<span class="consent-text">
+					Genom att bocka i rutan ger jag mitt samtycke till att behandla mina personuppgifter som har lämnats i formuläret ovan i enlighet med
+					<a href="https://www.wowen.tech/sv/integritetspolicy/" target="_blank">WOWEN Tech integritetspolicy</a>.
+				</span>
+			</label>
+			<button type="submit">Skicka</button>
+		</form>
+	</div>
+
 </div>
 </div>
 </div>
