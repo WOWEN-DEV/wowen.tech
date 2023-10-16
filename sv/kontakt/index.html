@@ -420,7 +420,7 @@ fill: #91FF6A;
 			document.getElementById("contact-form").addEventListener("submit", function (e) {
 				e.preventDefault();
 				const formData = new FormData(this);
-				fetch("https://wowen.tech/sv/kontakt/tack/", {
+				fetch("/sv/kontakt/tack", {
 					method: "POST",
 					body: formData,
 				}).then(() => {
