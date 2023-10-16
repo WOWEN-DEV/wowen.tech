@@ -400,34 +400,36 @@ fill: #91FF6A;
 	</div>
 	</div>
 	<div class="cell medium-offset-2 medium-8 large-offset-1 large-5">
-	<div class="contact-wowen-container">
-	<form id="contact-form" action="https://wowen.tech/contact/submit_form.php" method="POST" class="rm-contact-form rm-pcontact">
-	<input type="text" id="name" name="name" placeholder="Name*" required>
-	<input type="text" id="company" name="company" placeholder="Company">
-	<input type="email" id="email" name="email" placeholder="Email*" required>
-	<textarea id="message" name="message" placeholder="Message*" required></textarea>
-	<label class="consent">
-	<input type="checkbox" id="consent" name="consent" required>
-	<span class="consent-text">
-	By checking the box, I give my consent to process my personal information provided in the form above, in accordance with the
-	<a href="https://www.wowen.tech//privacy-policy/" target="_blank">WOWEN Tech privacy policy</a>.
-	</span>
-	</label>
-	<button type="submit">Send</button>
-	</form>
-	<script>
-	document.getElementById("contact-form").addEventListener("submit", function (e) {
-	e.preventDefault();
-	const formData = new FormData(this);
-	fetch("<?php echo $_SERVER['PHP_SELF']; ?>", {
-	method: "POST",
-	body: formData,
-	}).then(() => {
-	window.location.href = "https://wowen.tech/contact/thank-you/";
-	});
-	});
-	</script>
-	</div>
+
+		<div class="contact-wowen-container">
+			<form id="contact-form" action="/thank-you" method="POST" class="rm-contact-form rm-pcontact" name="contact" netlify>
+				<input type="text" id="name" name="name" placeholder="Name*" required>
+				<input type="text" id="company" name="company" placeholder="Company">
+				<input type="email" id="email" name="email" placeholder="Email*" required>
+				<textarea id="message" name="message" placeholder="Message*" required></textarea>
+				<label class="consent">
+					<input type="checkbox" id="consent" name="consent" required>
+					<span class="consent-text">
+						By checking the box, I give my consent to process my personal information provided in the form above, in accordance with the
+						<a href="https://www.wowen.tech//privacy-policy/" target="_blank">WOWEN Tech privacy policy</a>.
+					</span>
+				</label>
+				<button type="submit">Send</button>
+			</form>
+			<script>
+				document.getElementById("contact-form").addEventListener("submit", function (e) {
+					e.preventDefault();
+					const formData = new FormData(this);
+					fetch("/thank-you", {
+						method: "POST",
+						body: formData,
+					}).then(() => {
+						window.location.href = "https://wowen.tech/contact/thank-you/";
+					});
+				});
+			</script>
+		</div>
+
 	</div>
 	</div>
 	</div>
