@@ -402,7 +402,7 @@ fill: #91FF6A;
 	<div class="cell medium-offset-2 medium-8 large-offset-1 large-5">
 
 		<div class="contact-wowen-container">
-			<form id="contact-form" action="https://www.wowen.tech/contact/thank-you/" method="POST" class="rm-contact-form rm-pcontact" name="contact" netlify>
+			<form id="contact-form" action="/thank-you" method="POST" class="rm-contact-form rm-pcontact" name="contact" netlify>
 				<input type="text" id="name" name="name" placeholder="Name*" required>
 				<input type="text" id="company" name="company" placeholder="Company">
 				<input type="email" id="email" name="email" placeholder="Email*" required>
@@ -416,6 +416,18 @@ fill: #91FF6A;
 				</label>
 				<button type="submit">Send</button>
 			</form>
+			<script>
+				document.getElementById("contact-form").addEventListener("submit", function (e) {
+					e.preventDefault();
+					const formData = new FormData(this);
+					fetch("/thank-you", {
+						method: "POST",
+						body: formData,
+					}).then(() => {
+						window.location.href = "https://wowen.tech/contact/thank-you/";
+					});
+				});
+			</script>
 		</div>
 
 	</div>
