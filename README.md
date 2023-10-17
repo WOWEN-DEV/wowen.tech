@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status)](https://app.netlify.com/sites/wowen/deploys)
+
 # WOWEN - Transforming Femtech
 
 Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🚀
