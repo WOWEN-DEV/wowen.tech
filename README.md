@@ -1,4 +1,13 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status)](https://app.netlify.com/sites/wowen/deploys) [![WOWEN](https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet)](https://www.wowen.tech/)
+![WOWEN Tech Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/wowen/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
+  </a>
+  <a href="https://www.wowen.tech/">
+    <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
+  </a>
+</p>
 
 
 # WOWEN - Transforming Femtech
