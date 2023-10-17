@@ -1,3 +1,5 @@
+![WOWEN Tech Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
+
 # Contributing to WOWEN Projects
 
 👋 Welcome to WOWEN, where we believe in the power of community collaboration! We truly appreciate your interest in contributing to our projects.
