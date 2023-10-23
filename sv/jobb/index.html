@@ -444,6 +444,7 @@ const videoPlayer = document.getElementById("videoPlayer");
 function showPopup() {
   const videoPlayer = document.getElementById("videoPlayer");
   videoPlayer.play();
+	document.getElementById("playButton").style.display = "none";
   document.getElementById("popup").style.display = "flex";
 }
 function closePopup() {
