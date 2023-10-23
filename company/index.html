@@ -439,6 +439,7 @@ fill: #91FF6A;
 	function showPopup() {
 	  const videoPlayer = document.getElementById("videoPlayer");
 	  videoPlayer.play();
+	  document.getElementById("playButton").style.display = "none";
 	  document.getElementById("popup").style.display = "flex";
 	}
 	function closePopup() {
