@@ -21324,6 +21324,7 @@ input[type=submit] {
   cursor: pointer;
   z-index: 1;
   position: relative;
+  display: none;
 }
 .play-button img {
   width: 100%;
@@ -21614,6 +21615,7 @@ blockquote p {
   z-index: 1;
   position: relative;
   top: -23px;
+  display: none;
 }
 .close-button {
   position: absolute;
