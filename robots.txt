@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /backups/
-Sitemap: https://wowen.tech/sitemap.xml
-Sitemap: https://wowen.tech/sitemap-sv.xml
+Sitemap: https://www.wowen.tech/sitemap.xml
+Sitemap: https://www.wowen.tech/sitemap-sv.xml
 
 
