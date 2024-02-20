@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /backups/
+Disallow: /404.html
 Sitemap: https://www.wowen.tech/sitemap.xml
 Sitemap: https://www.wowen.tech/sitemap-sv.xml
 
