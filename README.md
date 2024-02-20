@@ -147,4 +147,4 @@ Have feedback or need support? Feel free to reach out!
 
 Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering. 💪 
 
-Copyright © 2019-2023, WOWEN. All rights reserved.
+Copyright © 2019-2024, WOWEN. All rights reserved.
