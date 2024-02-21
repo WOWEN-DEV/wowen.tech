@@ -47,7 +47,7 @@ input[type=submit] {
 	display: none;
 	align-items: center;
 	font-size: 12px;
-	background-color: #0a0a0a;
+	background-color: #000000;
 	width: calc(100% - 32px);
 	height: calc(100% - 26px);
 	border-radius: 100%;
