@@ -3,7 +3,7 @@ const { JSDOM } = require('jsdom');
 const RSS = require('rss');
 
 // Assume you have a file named /insights/index.html with your article snippets
-const articlesHtml = fs.readFileSync('./insights/index.html', 'utf-8');
+const articlesHtml = fs.readFileSync('/Users/emmahager/Downloads/rss/wowen.tech/insights/index.html', 'utf-8');
 const dom = new JSDOM(articlesHtml);
 
 // Create new  RSS feed
@@ -34,4 +34,4 @@ dom.window.document.querySelectorAll('.rm-blog-post').forEach(article => {
 });
 
 // Write the RSS feed to a file
-fs.writeFileSync(__dirname + '/insights/rss.xml', feed.xml());
+fs.writeFileSync('/Users/emmahager/Downloads/rss/wowen.tech/insights/rss.xml', feed.xml());
