@@ -2,7 +2,7 @@ const fs = require('fs');
 const { JSDOM } = require('jsdom');
 const RSS = require('rss');
 
-// Assume you have a file named articles.html with your article snippets
+// Assume you have a file named /insights/index.html with your article snippets
 const articlesHtml = fs.readFileSync('./insights/index.html', 'utf-8');
 const dom = new JSDOM(articlesHtml);
 
