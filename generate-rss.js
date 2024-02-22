@@ -31,4 +31,4 @@ dom.window.document.querySelectorAll('.rm-blog-post').forEach(article => {
 });
 
 // Write the RSS feed to a file
-fs.writeFileSync('public/rss.xml', feed.xml());
+fs.writeFileSync('insights/rss.xml', feed.xml());
