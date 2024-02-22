@@ -4,7 +4,7 @@
   "description": "Expertise in full-stack development, femtech, UX, design, and marketing. We transform high-level strategy into practical implementation, at the intersection of business development, communication, and technology.",
   "main": "index.js",
   "scripts": {
-    "build": "node generate-rss.js"
+    "build": "mkdir -p public && node generate-rss.js"
   },
   "keywords": ["femtech", "tech", "womens health", "innovation"],
   "author": "Emma Hager <emma@wowen.tech> (https://www.wowen.tech)",
