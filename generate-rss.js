@@ -8,11 +8,14 @@ const dom = new JSDOM(articlesHtml);
 
 // Create new  RSS feed
 const feed = new RSS({
-    title: "WOWEN&#174; FemTech – Insights",
+    title: "WOWEN® FemTech – Insights",
     description: "Expertise in full-stack development, femtech, UX, design, and marketing.",
     feed_url: "https://www.wowen.tech/insights/rss.xml",
     site_url: "https://www.wowen.tech/insights",
     language: 'en',
+    image_url: "https://www.wowen.tech/assets/img/apple-touch-icon.png",
+    image_title: "WOWEN",
+    image_link: "https://www.wowen.tech/"
 });
 
 // Loop through each article and add to the feed
