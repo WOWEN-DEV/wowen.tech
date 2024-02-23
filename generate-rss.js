@@ -2,18 +2,18 @@ const fs = require('fs');
 const { JSDOM } = require('jsdom');
 const RSS = require('rss');
 
-console.log("Startar RSS-genereringsskriptet...");
+console.log("Starting the RSS generation script...");
 
-// Antag att du har en fil som heter /insights/index.html med dina artikelsnuttar
+// Assuming you have a file named /insights/index.html with your article snippets
 const articlesHtmlPath = './insights/index.html';
-console.log(`Läser in artiklar från: ${articlesHtmlPath}`);
+console.log(`Loading articles from: ${articlesHtmlPath}`);
 try {
     const articlesHtml = fs.readFileSync(articlesHtmlPath, 'utf-8');
-    console.log("Filen inläst framgångsrikt.");
+    console.log("File successfully read.");
     const dom = new JSDOM(articlesHtml);
 
-    // Skapa en ny RSS-feed
-    console.log("Skapar ny RSS-feed...");
+    // Creating a new RSS feed
+    console.log("Creating a new RSS feed...");
     const feed = new RSS({
         title: "WOWEN® FemTech – Insights",
         description: "Expertise in full-stack development, femtech, UX, design, and marketing.",
@@ -25,14 +25,14 @@ try {
         image_link: "https://www.wowen.tech/"
     });
 
-    // Loopa igenom varje artikel och lägg till i feeden
+    // Loop through each article and add to the feed
     dom.window.document.querySelectorAll('.rm-blog-post').forEach(article => {
         const title = article.querySelector('.rm-blog-post__title a').textContent;
         const description = article.querySelector('.rm-blog-post__description').textContent;
         const url = article.querySelector('.rm-blog-post__title a').href;
         const date = article.querySelector('.rm-blog-post__date').getAttribute('datetime');
         
-        console.log(`Lägger till artikel: ${title}`);
+        console.log(`Adding article: ${title}`);
         feed.item({
             title: title,
             description: description,
@@ -41,10 +41,10 @@ try {
         });
     });
 
-    // Skriv RSS-feeden till en fil
+    // Write the RSS feed to a file
     const outputPath = 'insights/rss.xml';
     fs.writeFileSync(outputPath, feed.xml());
-    console.log(`RSS-filen skriven till: ${outputPath}`);
+    console.log(`RSS file written to: ${outputPath}`);
 } catch (error) {
-    console.error(`Ett fel uppstod under genereringen av RSS: ${error}`);
+    console.error(`An error occurred during RSS generation: ${error}`);
 }
