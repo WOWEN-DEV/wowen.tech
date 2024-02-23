@@ -12,7 +12,7 @@ Before deploying new changes to the Insights page, especially when adding new ar
 
 1. **Update Content:** Ensure new articles are updated with the correct metadata, timestamps, excerpts, etc. This step is vital for maintaining the integrity and accuracy of the Insights page and its RSS feed.
 
-2. **Generate RSS File Locally::** To update the `rss.xml` file locally (and consequently on the GitHub repo and the live site), you must run the following command in your project's root directory:
+2. **Generate RSS File Locally:** To update the `rss.xml` file locally (and consequently on the GitHub repo and the live site), you must run the following command in your project's root directory:
 
    ```shell
    node generate-rss.js
