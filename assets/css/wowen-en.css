@@ -21018,14 +21018,16 @@ input[type=submit] {
   bottom: 0;
   left: 0;
   z-index: 9999;
-  margin-bottom: -27.5px;
-  margin-left: -35rem;
+  margin-bottom: -57.5px;
+  margin-left: -38rem;
+  pointer-events: none;
 }
 .lottie-wowen-menu-fire {
   position: fixed;
-  bottom: -225px;
-  right: 174px;
+  bottom: -220px;
+  right: -629px;
   z-index: 9999;
+  pointer-events: none;
 }
 .lottie-wowen-spaceufo {
   width: 100vw;
