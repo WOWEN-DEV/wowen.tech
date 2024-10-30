@@ -21024,8 +21024,8 @@ input[type=submit] {
 }
 .lottie-wowen-menu-fire {
   position: fixed;
-  bottom: -220px;
-  right: -629px;
+  bottom: -160px;
+  right: -429px;
   z-index: 9999;
   pointer-events: none;
 }
