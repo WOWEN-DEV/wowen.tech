@@ -37,6 +37,8 @@
 <link rel='stylesheet' id='app-css' href='../assets/css/wowen-en.css' type='text/css' media='all' />
 <link rel='stylesheet' id='add-css' href='../assets/css/wowen-add-en.css' type='text/css' media='all' />
 
+<script src="https://wowen.tech/assets/js/lottie.min.js"></script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -373,9 +375,17 @@ fill: #91FF6A;
 </ul>
 </div>
 
-<div class="lottie-wowen-menu-flash" data-reveal="text-lines">
-<lottie-player src="https://wowen.tech/assets/js/animations/lottie-wowen-menu-flash.json" background="transparent" speed="1" renderer="svg" style="width: 170%; height: 170%;" loop autoplay></lottie-player>
-</div>
+<div id="lottie-wowen-menu-flash" style="width: 170%; height: 170%;"></div>
+
+<script>
+    lottie.loadAnimation({
+        container: document.getElementById('lottie-wowen-menu-flash'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://wowen.tech/assets/js/animations/lottie-wowen-menu-flash.json'
+    });
+</script>
 
 <div class="lottie-wowen-menu-fire" data-reveal="text-lines">
 <lottie-player src="https://lottie.host/ea250fde-2314-40c4-8368-91daebfc91a0/JVCz6Lgv5J.json" background="transparent" speed="1" renderer="svg" style="width: 170%; height: 170%;" loop autoplay></lottie-player>
