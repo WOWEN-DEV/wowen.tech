@@ -20979,6 +20979,7 @@ input[type=submit] {
   z-index: 9999;
   margin-left: -10rem;
   margin-bottom: 1rem;
+  width: 22%!important;
   transform: rotate(3deg);
 }
 .rm-logo-svg {
