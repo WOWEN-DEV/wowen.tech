@@ -21944,6 +21944,7 @@ blockquote p {
   z-index: 9999;
   margin-left: 0;
   margin-bottom: 0;
+  width: 75%!important;
   transform: scale(0.7) translate(-80px, -168px) rotate(4deg);
 }
 .lottie-wowen-menu-fire {
