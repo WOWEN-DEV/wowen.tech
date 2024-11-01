@@ -20977,7 +20977,7 @@ input[type=submit] {
   top: 178px;
   position: absolute;
   z-index: 9999;
-  margin-left: -34rem;
+  margin-left: -10rem;
   margin-bottom: 1rem;
   transform: rotate(3deg);
 }
