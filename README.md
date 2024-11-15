@@ -1,4 +1,4 @@
-![WOWEN Tech Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
+![WOWEN Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
 
 <p align="center">
   <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
@@ -7,7 +7,7 @@
 
 <h1 align="center">WOWEN - Transforming FemTech</h1>
 
-<p align="center">Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🚀 </p>
+<p align="center">Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🕷️🕸️</p>
 
 <br>
 <br>
@@ -123,7 +123,7 @@ As of now, we plan to continue using Netlify for hosting and deployment and One.
 
 # Contributing
 
-We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our Contributing Guidelines.
+We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our [Contributing Guidelines](https://github.com/WOWEN-DEV/wowen.tech/blob/1ae3df4da0e1ae73c7340f8de7b98d542c5b1b30/CONTRIBUTING.md).
 
 <br>
 
@@ -147,6 +147,11 @@ This project is proprietary and copyrighted. All rights reserved. You may not us
 
 ---
 
-Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering. 💪 
+<br>
 
-Copyright © 2019-2024, WOWEN. All rights reserved.
+<p align="center">
+  <img src="https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg" alt="WOWEN Logo" width="30%">
+</p>
+
+<p align="center">Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering 🕷️🕸️</p>
+<p align="center">Copyright © 2019-2024, WOWEN. All rights reserved.</p>
