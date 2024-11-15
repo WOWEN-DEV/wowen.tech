@@ -148,6 +148,8 @@ Have feedback or need support? Feel free to reach out!
 # License
 This project is proprietary and copyrighted. All rights reserved. You may not use, distribute, or modify this code without explicit permission from WOWEN.
 
+<br>
+
 ---
 
 Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering. 💪 
