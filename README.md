@@ -139,9 +139,14 @@ Have feedback or need support? Feel free to reach out!
 # Connect with Us
 
 - **Website:** [wowen.tech](https://wowen.tech)
-- **First Contact Email:** emma@wowen.tech
+- **Email:** emma@wowen.tech
 
 <br>
+
+---
+
+# License
+This project is proprietary and copyrighted. All rights reserved. You may not use, distribute, or modify this code without explicit permission from WOWEN.
 
 ---
 
