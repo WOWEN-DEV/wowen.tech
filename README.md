@@ -1,17 +1,13 @@
 ![WOWEN Tech Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/wowen/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
-  </a>
-  <a href="https://github.com/WOWEN-DEV">
-    <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
-  </a>
+  <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
+  <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
 </p>
 
 <h1 align="center">WOWEN - Transforming FemTech</h1>
 
-Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🚀
+<p align="center">Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🚀 </p>
 
 <br>
 <br>
@@ -38,7 +34,8 @@ Welcome to the WOWEN website repository! We're thrilled to have you here as we e
   - [Summary of Technologies](#summary-of-technologies)
 - [Contributing](#contributing)
 - [Feedback and Support](#feedback-and-support)
-- [Connect with Us](#connect-with-us)
+- [Connect with WOWEN](#connect-with-wowen)
+- [License](#license)
 
 <br>
 
@@ -126,7 +123,7 @@ As of now, we plan to continue using Netlify for hosting and deployment and One.
 
 # Contributing
 
-We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our Contributing Guidelines.
 
 <br>
 
@@ -136,14 +133,12 @@ Have feedback or need support? Feel free to reach out!
 
 <br>
 
-# Connect with Us
+# Connect with WOWEN
 
 - **Website:** [wowen.tech](https://wowen.tech)
 - **Email:** emma@wowen.tech
 
 <br>
-
----
 
 # License
 This project is proprietary and copyrighted. All rights reserved. You may not use, distribute, or modify this code without explicit permission from WOWEN.
