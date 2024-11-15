@@ -43,7 +43,7 @@ Welcome to the WOWEN website repository! We're thrilled to have you here as we e
 <br>
 
 # About
-WOWEN is not just a company; we are a creative powerhouse with expertise in full-stack development, FemTech, UX, design, and marketing. We have a unique ability to transform high-level strategy into practical implementation at the intersection of business development, communication, and technology.
+WOWEN is not just a company; we are a creative powerhouse with expertise in full-stack development, FemTech, publishing, UX, design, and marketing. We have a unique ability to transform high-level strategy into practical implementation at the intersection of business development, communication, and technology.
 
 <br>
 
