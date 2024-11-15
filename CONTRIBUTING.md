@@ -1,12 +1,14 @@
 ![WOWEN Tech Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
 
+<br>
+
 # Contributing to WOWEN Projects
 
-👋 Welcome to WOWEN, where we believe in the power of community collaboration! We truly appreciate your interest in contributing to our projects.
+🕷️🕸️ Welcome to WOWEN, where we believe in the power of community collaboration! We truly appreciate your interest in contributing to our projects.
 
 ## How to Contribute
 
-If you're passionate about FemTech and want to contribute to WOWEN, please follow these simple steps:
+If you're passionate about FemTech and want to contribute with WOWEN, please follow these simple steps:
 
 1. **Fork the Repository:** Click the "Fork" button on the top right of the repository's page to create your copy.
 
@@ -46,3 +48,15 @@ If you have questions or need support during the contribution process, feel free
 
 Thank you for being a part of the FemTech Dev Community and contributing to WOWEN's mission of powering women through technology and creativity! 🌟
 
+<br>
+
+---
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg" alt="WOWEN Logo" width="30%">
+</p>
+
+<p align="center">Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering 🕷️🕸️</p>
+<p align="center">Copyright © 2019-2024, WOWEN. All rights reserved.</p>
