@@ -22,7 +22,6 @@
   - [Never deploy and commit directly to main branch](#never-deploy-and-commit-directly-to-main-branch)
   - [Branches and deploy contexts](#branches-and-deploy-contexts)
   - [Current settings and deploy contexts in Netlify](#current-settings-and-deploy-contexts-in-netlify)
-- [Changelog](#changelog)
 - [Roadmap](#roadmap)
 - [Developer Documentation: Technical Architecture and Stack Overview](#developer-documentation-technical-architecture-and-stack-overview)
   - [Frontend](#frontend)
@@ -32,9 +31,6 @@
   - [Analytics](#analytics)
   - [Future Considerations](#future-considerations)
   - [Summary of Technologies](#summary-of-technologies)
-- [Contributing](#contributing)
-- [Feedback and Support](#feedback-and-support)
-- [Connect with WOWEN](#connect-with-wowen)
 - [License](#license)
 
 <br>
@@ -66,12 +62,6 @@ For those who are new with the terms:
 - **Production Branch:** `main`
 - **Branch Deploys:** `staging` *Note: Netlify is with this setting ignoring any other branches we create in this repo; it won't make websites from them*.
 - **Deploy Previews:** `Any pull request against your production branch / branch deploy branches`
-
-<br>
-
-# Changelog
-This changelog provide a high-level overview of the changes made in each version of the website:
-- [Changelog](https://github.com/WOWEN-DEV/wowen.tech/blob/main/CHANGELOG.md)
 
 <br>
 
@@ -118,25 +108,6 @@ As of now, we plan to continue using Netlify for hosting and deployment and One.
 - One.com (Domain management + database possibilities + archive for old email domain wowen.se)
 - Netlify (Hosting, frontend deployment, form collection, authentication)
 - Tally (Form builder)
-
-<br>
-
-# Contributing
-
-We welcome contributions from the FemTech Dev Community. If you'd like to contribute to our projects, please follow our [Contributing Guidelines](https://github.com/WOWEN-DEV/wowen.tech/blob/1ae3df4da0e1ae73c7340f8de7b98d542c5b1b30/CONTRIBUTING.md).
-
-<br>
-
-# Feedback and Support
-
-Have feedback or need support? Feel free to reach out!
-
-<br>
-
-# Connect with WOWEN
-
-- **Website:** [wowen.tech](https://wowen.tech)
-- **Email:** emma@wowen.tech
 
 <br>
 
