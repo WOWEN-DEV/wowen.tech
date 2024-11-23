@@ -124,5 +124,5 @@ This project is proprietary and copyrighted. All rights reserved. You may not us
   <img src="https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg" alt="WOWEN Logo" width="30%">
 </p>
 
-<p align="center">Thank you for your interest in WOWEN. Together, we're making FemTech innovative, creative, and powering 🕷️🕸️</p>
+<p align="center">Weaving the Web 🕷️🕸️</p>
 <p align="center">Copyright © 2019-2024, WOWEN. All rights reserved.</p>
