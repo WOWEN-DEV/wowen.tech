@@ -1,4 +1,4 @@
-![WOWEN Logo](https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg)
+![WOWEN Logo](https://github.com/WOWEN-DEV/wowen/blob/main/wowen-repo-logo.svg)
 
 <p align="center">
   <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
@@ -12,7 +12,7 @@
 <br>
 <br>
 <div align="center">
-  <img src="https://www.wowen.tech/assets/img/hands.svg" alt="WOWEN Illustration">
+  <img src="https://github.com/WOWEN-DEV/wowen/blob/main/wowen-hands.svg" alt="WOWEN Illustration">
 </div>
 
 
@@ -121,7 +121,7 @@ This project is proprietary and copyrighted. All rights reserved. You may not us
 <br>
 
 <p align="center">
-  <img src="https://github.com/WOWEN-DEV/wowen.tech/blob/main/assets/img/wowen-tech-repo-logo.svg" alt="WOWEN Logo" width="30%">
+  <img src="https://github.com/WOWEN-DEV/wowen/blob/main/wowen-repo-logo.svg" alt="WOWEN Logo" width="30%">
 </p>
 
 <p align="center">Weaving the Web 🕷️🕸️</p>
