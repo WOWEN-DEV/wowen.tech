@@ -33,8 +33,8 @@
   - [What we do](#what-we-do)
 - [Deployment and Staging](#deployment-and-staging)
   - [Never deploy and commit directly to main branch](#never-deploy-and-commit-directly-to-main-branch)
-  - [Branches and deploy contexts](#branches-and-deploy-contexts)
-  - [Current settings and deploy contexts in Netlify](#current-settings-and-deploy-contexts-in-netlify)
+  - [Branches and Deploy Contexts](#branches-and-deploy-contexts)
+  - [Current Settings and Deploy Contexts in Netlify](#current-settings-and-deploy-contexts-in-netlify)
 - [Developer Documentation: Technical Architecture and Stack Overview](#developer-documentation-technical-architecture-and-stack-overview)
   - [Frontend](#frontend)
   - [Domain Management](#domain-management)
@@ -67,7 +67,7 @@ Our website is hosted and deployed with Netlify. Production site [www.wowen.tech
 ## Never deploy and commit directly to main branch
 In most cases, changes should never be directly deployed to our `main` branch, which serves as the production environment/main branch/site. Instead, commit and deploy your changes to our staging branch first, and if approved it will be merged and synced into our `main` branch. For the website ([www.wowen.tech](https://www.wowen.tech/)), the staging branch is named `staging` and can be accessed at [https://staging---wowen.netlify.app](https://staging--wowen.netlify.app).
 
-## Branches and deploy contexts
+## Branches and Deploy Contexts
 
 For those who are new with the terms:
 - **Branch:** A branch is like a version of our code, our `main` branch is our Web App/production site [https://www.wowen.tech](https://www.wowen.tech) and our `staging` branch is our staging site [https://staging--wowen.netlify.app](https://staging--wowen.netlify.app) where we stage/test updates before they end up on our production site, the `main` branch. This is a way to work on updates or new features without affecting the publicly known and used live website. Once you're satisfied with the updates on `staging`, you can combine ("merge") the `staging` branch into the `main` branch, the main version of the code, our production site. 
@@ -78,7 +78,7 @@ For those who are new with the terms:
 - **Deploy Previews:** Are temporary websites that Netlify creates to show you what these changes will look like if they go live. When someone suggests changes to our code, they often make a "pull request." With this setting, Netlify will automatically create a temporary, live version of our site incorporating those suggested changes. This is called a "Deploy Preview." This allows you to preview changes before they go live on our main site (`main` branch).
 - **Branch Deploys:** The `main` branch serves as our production branch, while branch deploys encompass all other branches created here that we designate to be included as "Branch Deploys."
 
-## Current settings and deploy contexts in Netlify
+## Current Settings and Deploy Contexts in Netlify
 - **Production Branch:** `main`
 - **Branch Deploys:** `staging` *Note: Netlify is with this setting ignoring any other branches we create in this repo; it won't make websites from them*.
 - **Deploy Previews:** `Any pull request against your production branch / branch deploy branches`
