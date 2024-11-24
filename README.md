@@ -107,15 +107,16 @@ Our technical infrastructure is designed to be robust and scalable, leveraging a
 - **Netlify Forms**: Used to collect contact forms on `/contact` and `/sv/kontakt`.
 - **Tally**: Used to collect applicant forms on `/careers` and `/sv/jobb/`.
 
-## Analytics
+## Analytics/SEO
 
 - **Google Analytics**: Used for web traffic analysis – (`WOWEN – wowen.tech – GA4`).
 - **Plausible**: An additional tool for web traffic analysis – (`WOWEN – wowen.tech`).
 - **Google Tag Manager**: Used for managing pixels and tags on the website, current implemented tags: *Google Analytics*, *Facebook Pixel*, *LinkedIn Insight Tag* – (`WOWEN – www.wowen.tech`)
+- **Google Search Console**: Integrated with Google Search Console for optimal SEO and structure.
 
 ## Future Considerations
 
-As of now, we plan to continue using Netlify for hosting and deployment and One.com for domain management. However, we are evaluating other options for hosting and domain management, potentially transitioning to AWS Services or Vercel.
+As of now, we plan to continue using Netlify for hosting and deployment and One.com for domain management. However, we are evaluating other options for hosting and domain management, potentially transitioning to AWS Services or Vercel, as well as migrating the website to another framework.
 
 ## Summary of Technologies
 - One.com (Domain management + database possibilities + archive for old email domain wowen.se)
