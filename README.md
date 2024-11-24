@@ -30,6 +30,7 @@
 
 # Table of Contents
 - [About WOWEN](#about-wowen)
+  - [What we do](#what-we-do)
 - [Deployment and Staging](#deployment-and-staging)
   - [Never deploy and commit directly to main branch](#never-deploy-and-commit-directly-to-main-branch)
   - [Branches and deploy contexts](#branches-and-deploy-contexts)
@@ -39,7 +40,7 @@
   - [Domain Management](#domain-management)
   - [Hosting and Deployment](#hosting-and-deployment)
   - [Form Collection](#form-collection)
-  - [Analytics](#analytics)
+  - [Analytics/SEO](#analyticsseo)
   - [Future Considerations](#future-considerations)
   - [Summary of Technologies](#summary-of-technologies)
 - [License](#license)
