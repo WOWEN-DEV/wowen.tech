@@ -13267,11 +13267,6 @@ span[data-reveal="text-lines"] {
 .rm-openings-wrap {
   min-height: 268px;
 }
-@media print, screen and (min-width: 64em) {
-  .rm-openings-wrap {
-    min-height: 574px;
-  }
-}
 .rm-vacancy {
   display: flex;
   justify-content: space-between;
