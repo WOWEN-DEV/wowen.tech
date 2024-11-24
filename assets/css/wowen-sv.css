@@ -13264,9 +13264,9 @@ span[data-reveal="text-lines"] {
     top: 0;
   }
 }
-.rm-openings-wrap {
-  min-height: 268px;
-}
+
+/* Put rm-openings-wrap here */
+
 .rm-vacancy {
   display: flex;
   justify-content: space-between;
