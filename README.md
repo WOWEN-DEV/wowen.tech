@@ -61,14 +61,12 @@ WOWEN is not just a company; we are a creative powerhouse with expertise in full
 <br>
 
 # Deployment and Staging
-
 Our website is hosted and deployed with Netlify. Production site [www.wowen.tech](https://www.wowen.tech/) is `main` branch, staging site [staging--wowen.netlify.app](https://staging--wowen.netlify.app) is `staging` branch.
 
 ## Never deploy and commit directly to main branch
 In most cases, changes should never be directly deployed to our `main` branch, which serves as the production environment/main branch/site. Instead, commit and deploy your changes to our staging branch first, and if approved it will be merged and synced into our `main` branch. For the website ([www.wowen.tech](https://www.wowen.tech/)), the staging branch is named `staging` and can be accessed at [https://staging---wowen.netlify.app](https://staging--wowen.netlify.app).
 
 ## Branches and Deploy Contexts
-
 For those who are new with the terms:
 - **Branch:** A branch is like a version of our code, our `main` branch is our Web App/production site [https://www.wowen.tech](https://www.wowen.tech) and our `staging` branch is our staging site [https://staging--wowen.netlify.app](https://staging--wowen.netlify.app) where we stage/test updates before they end up on our production site, the `main` branch. This is a way to work on updates or new features without affecting the publicly known and used live website. Once you're satisfied with the updates on `staging`, you can combine ("merge") the `staging` branch into the `main` branch, the main version of the code, our production site. 
 - **Staging:** Is a separate test version of our site. Our branch `staging` is our staging enviroment. Current branch update/status/deployment is always accessed live at [https://staging--wowen.netlify.app](https://staging--wowen.netlify.app).
@@ -89,34 +87,28 @@ For those who are new with the terms:
 Our technical infrastructure is designed to be robust and scalable, leveraging a variety of technologies and services. Below is a detailed breakdown of our current setup:
 
 ## Frontend
-
 - **Technologies**: HTML, CSS, JavaScript
 - **Description**: The frontend is a simple setup consisting of HTML, CSS, and JavaScript files.
 
 ## Domain Management
-
 - **Registrar**: One.com
 - **Description**: We've registered our domain (`wowen.tech`) and all associated subdomains with One.com. As of now, we intend to continue using One.com as our domain registrar due to its other convenient features.
 
 ## Hosting and Deployment
-
 - **Platform**: Netlify
 - **Description**: We use Netlify for hosting and deployment. We've set up the DNS settings on One.com to point to Netlify, which serves as the platform for both our frontend hosting and deployment.
 
 ## Form Collection
-
 - **Netlify Forms**: Used to collect contact forms on `/contact` and `/sv/kontakt`.
 - **Tally**: Used to collect applicant forms on `/careers` and `/sv/jobb/`.
 
 ## Analytics/SEO
-
 - **Google Analytics**: Used for web traffic analysis – (`WOWEN – wowen.tech – GA4`).
 - **Plausible**: An additional tool for web traffic analysis – (`WOWEN – wowen.tech`).
 - **Google Tag Manager**: Used for managing pixels and tags on the website, current implemented tags: *Google Analytics*, *Facebook Pixel*, *LinkedIn Insight Tag* – (`WOWEN – www.wowen.tech`)
 - **Google Search Console**: Integrated.
 
 ## Future Considerations
-
 As of now, we plan to continue using Netlify for hosting and deployment and One.com for domain management. However, we are evaluating other options for hosting and domain management, potentially transitioning to AWS Services or Vercel, as well as migrating the website to another framework.
 
 ## Summary of Technologies
