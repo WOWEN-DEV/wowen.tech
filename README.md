@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
 </p>
 
-<h1 align="center">WOWEN - Transforming FemTech</h1>
+<h1 align="center">WOWEN - Transforming FemTech and beyond</h1>
 
 <p align="center">Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🕷️🕸️</p>
 
