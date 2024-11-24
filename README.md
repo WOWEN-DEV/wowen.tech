@@ -1,28 +1,39 @@
+<br>
+
 ![WOWEN Logo](https://github.com/WOWEN-DEV/wowen/blob/main/wowen-repo-logo.svg)
+
+<br>
 
 <p align="center">
   <img src="https://api.netlify.com/api/v1/badges/b86ae6b4-7487-4cc1-b96a-0925766438c0/deploy-status" alt="Netlify Status">
   <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
 </p>
 
+<br>
+
 <h1 align="center">WOWEN - Transforming FemTech and beyond</h1>
+
+<h3 align="center"><i>Weaving the Web</i></h3>
+
+<br>
 
 <p align="center">Welcome to the WOWEN website repository! We're thrilled to have you here as we embark on a journey to revolutionize FemTech. 🕷️🕸️</p>
 
 <br>
 <br>
+
 <div align="center">
   <img src="https://github.com/WOWEN-DEV/wowen/blob/main/wowen-hands.svg" alt="WOWEN Illustration">
 </div>
 
+<br>
 
 # Table of Contents
-- [About](#about)
+- [About WOWEN](#about-wowen)
 - [Deployment and Staging](#deployment-and-staging)
   - [Never deploy and commit directly to main branch](#never-deploy-and-commit-directly-to-main-branch)
   - [Branches and deploy contexts](#branches-and-deploy-contexts)
   - [Current settings and deploy contexts in Netlify](#current-settings-and-deploy-contexts-in-netlify)
-- [Roadmap](#roadmap)
 - [Developer Documentation: Technical Architecture and Stack Overview](#developer-documentation-technical-architecture-and-stack-overview)
   - [Frontend](#frontend)
   - [Domain Management](#domain-management)
@@ -35,8 +46,16 @@
 
 <br>
 
-# About
+# About WOWEN
 WOWEN is not just a company; we are a creative powerhouse with expertise in full-stack development, FemTech, publishing, UX, design, and marketing. We have a unique ability to transform high-level strategy into practical implementation at the intersection of business development, communication, and technology.
+
+## What we do
+- Full-stack development.
+- Design/UX/UI.
+- Marketing.
+- Project/product management.
+- Strategy.
+- Entrepreneurship.
 
 <br>
 
@@ -62,12 +81,6 @@ For those who are new with the terms:
 - **Production Branch:** `main`
 - **Branch Deploys:** `staging` *Note: Netlify is with this setting ignoring any other branches we create in this repo; it won't make websites from them*.
 - **Deploy Previews:** `Any pull request against your production branch / branch deploy branches`
-
-<br>
-
-# Roadmap
-
-At present, we do not have a roadmap for wowen.tech website.
 
 <br>
 
@@ -114,6 +127,7 @@ As of now, we plan to continue using Netlify for hosting and deployment and One.
 # License
 This project is proprietary and copyrighted. All rights reserved. You may not use, distribute, or modify this code without explicit permission from WOWEN.
 
+<br>
 <br>
 
 ---
