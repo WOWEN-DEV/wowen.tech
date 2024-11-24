@@ -112,7 +112,7 @@ Our technical infrastructure is designed to be robust and scalable, leveraging a
 - **Google Analytics**: Used for web traffic analysis – (`WOWEN – wowen.tech – GA4`).
 - **Plausible**: An additional tool for web traffic analysis – (`WOWEN – wowen.tech`).
 - **Google Tag Manager**: Used for managing pixels and tags on the website, current implemented tags: *Google Analytics*, *Facebook Pixel*, *LinkedIn Insight Tag* – (`WOWEN – www.wowen.tech`)
-- **Google Search Console**: Integrated with Google Search Console for optimal SEO and structure.
+- **Google Search Console**: Integrated.
 
 ## Future Considerations
 
